@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",  // Or another module type like ES6 if using modern JS
+    "target": "es6",       // Or higher
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,  // Optionally skip type checking of declaration files
+    "typeRoots": ["node_modules/@types"],  // Ensures that types are found in node_modules
+    "types": ["node","jest"],  // Only include 'node' here, remove 'bull'
+    "forceConsistentCasingInFileNames": true,  // Enable this option
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "random-user-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r ts-node/register src/app.ts"
+  },
+  "repository":{
+"type": "git",
+"url": "git+https://github.com/HardikPacholi/nodeTASK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bull": "^2.2.6",
+    "bullmq": "^5.37.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "@types/bull": "^4.10.4",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.10.10",
+    "axios-mock-adapter": "^2.1.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
